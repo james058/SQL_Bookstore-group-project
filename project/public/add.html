@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/owner.css">
+    <title>Add book</title>
+</head>
+
+<body>
+    <h1>
+        Fill in the book Information
+    </h1>
+    <div id="add_form">
+        <form>
+            <label for="book_name">Book Name: </label><br>
+            <input type="text" id="name"><br>
+
+            <label for="book_genre">Book genre: </label><br>
+            <input type="text" id="genre"><br>
+
+            <label for="book_ISBN">Book ISBN: </label><br>
+            <input type="text" id="ISBN"><br>
+
+            <label for="book_price">Book Price: </label><br>
+            <input type="text" id="price"><br>
+
+            <label for="book_pages">No. of pages: </label><br>
+            <input type="text" id="pages"><br>
+
+            <label for="author_id">Author id:</label><br>
+            <input type="text" id="aid"><br>
+
+            <label for="publisher_id">Publisher id: </label><br>
+            <input type="text" id="pid"><br><br>
+
+            <input id="add_submit" type="submit" value="Submit">
+        </form>
+
+        <p id="message" style="display: none;"></p>
+    </div>
+
+    <script src="./js/owner.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,84 @@
+body {
+    background-color: burlywood;
+    background-image: url(https://t4.ftcdn.net/jpg/03/03/52/05/360_F_303520596_RPlRH6ZXN0vrUwhiAuerT4puFjqOlFq3.jpg)
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+}
+
+#mainHeader {
+    text-align: center;
+    font-size: 5em;
+}
+
+#error {
+    color: red;
+}
+
+#message {
+    color: greenyellow;
+}
+
+a {
+    /*margin-left: 2em;*/
+    text-align: center;
+    margin-top: 6em;
+}
+
+a {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: green;
+    border-radius: 20px;
+    padding: 20px 40px;
+    outline: 1px dotted black;
+    color: white;
+    margin-right: 1.7em;
+    font-size: 1.9em;
+}
+
+a:focus {
+    outline: 0;
+}
+
+a:hover {
+    box-shadow: 0 3px 6px black;
+    color: white;
+    text-decoration: none;
+}
+
+#intro {
+    /*margin-left: 2em;*/
+    text-align: center;
+    margin-top: 6em;
+}
+
+#intro a {
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+    background-color: gold;
+    border-radius: 20px;
+    padding: 20px 40px;
+    outline: 1px dotted black;
+    color: white;
+    margin-right: 1.7em;
+    font-size: 1.9em;
+}
+
+#intro a:focus {
+    outline: 0;
+}
+
+#intro a:hover {
+    box-shadow: 0 3px 6px black;
+    color: white;
+    text-decoration: none;
+}

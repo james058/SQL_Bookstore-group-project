@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/owner.css">
+    <title>Owner Page</title>
+</head>
+
+<body>
+    <section id="form">
+        <h1>Owner Verification</h1>
+        <form id="myform">
+            <label for="name">Name: </label><br>
+            <input type="text" name="name" id="name"><br> <br>
+            <input id="submit" type="submit" value="Submit">
+
+        </form> <br><br>
+        <p id="error" style="display: none;">Please enter a valid owner</p>
+    </section>
+
+    <section id="selection" style="display: none;">
+        <h1 id="mainHeader">Welcome</h1>
+        <h1>Select an option below</h1>
+        <br><br>
+
+        <div id="intro">
+            <a href="./add.html">Add a book</a>
+            <a href="./remove.html">Remove a book</a>
+            <a href="./analytics.html">Analytics</a>
+        </div>
+    </section>
+
+
+    <script src="./js/owner.js"></script>
+</body>
+
+</html>

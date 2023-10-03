@@ -1,0 +1,17 @@
+body {
+    background-color: coral;
+    background-image: url(https://t4.ftcdn.net/jpg/03/03/52/05/360_F_303520596_RPlRH6ZXN0vrUwhiAuerT4puFjqOlFq3.jpg)
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#h1 {
+    font-size: 5em;
+}
+
+#form {
+    text-align: center;
+}

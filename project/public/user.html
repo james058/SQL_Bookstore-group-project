@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/user.css">
+    <title>USER</title>
+</head>
+
+<body>
+    <div id="intro">
+        <h1 id="mainHeader">User Sign in</h1>
+        <h1>Select an option</h1>
+
+        <button id="signin">sign in</button>
+        <button id="signup">sign up</button>
+    </div>
+
+
+    <div id="si_form" style="display: none;">
+        <h1>User Verification</h1>
+        <form id="form">
+            <label for="name">Enter your name: </label><br>
+            <input type="text" id="name"><br><br><br>
+
+            <input type="submit" id="sub" value="submit">
+        </form>
+    </div>
+
+    <div id="su_form" style="display: none;">
+        <h1>User Signup</h1>
+        <form id="form2">
+            <label for="name">Enter a name: </label><br>
+            <input type="text" id="uname"><br><br><br>
+
+            <input type="submit" id="submit2" value="submit">
+        </form>
+    </div>
+
+    <div id="main" style="display: none;">
+        <h1 id="welcome"> Welcome</h1>
+
+        <h1>Search for a book and add to cart</h1><br><br><br>
+
+        <div>
+            <form id="searchform">
+                <label for="book name">Book name: </label>
+                <input type="text" id="bname"><br><br>
+
+                <label for="book genre">Book genre : </label>
+                <input type="text" id="bgenre"><br><br>
+
+                <label for="book ISBN">Book ISBN: </label>
+                <input type="text" id="bISBN"><br><br>
+
+                <label for="book name">Book price: </label>
+                <input type="text" id="price"><br><br>
+
+                <label for="book pages">pages: </label>
+                <input type="text" id="bpages"><br><br>
+
+                <label for="authorname">Author Name: </label>
+                <input type="text" id="aname"><br><br>
+
+                <label for="Publisher name">Publisher name: </label>
+                <input type="text" id="pname"><br><br>
+            </form>
+        </div><br><br>
+        <div id="results">
+
+        </div><br><br><br>
+        <div>
+            <button id="viewcart">View Cart</button>
+        </div><br><br><br>
+
+    </div>
+    <div style="display: none;" id="cart">
+        <h1>Cart</h1><br><br>
+
+        <table id="data">
+            <tbody id="body">
+                <tr>
+                    <th>Book Name </th>
+                    <th>Price </th>
+                    <th>Quantity</th>
+                    <th></th>
+                </tr>
+            </tbody>
+        </table><br>
+
+        <p id="total">Total: </p><br>
+        <button id="checkout">CheckOut</button>
+
+
+    </div>
+    <div style="display: none;" id="checkdiv">
+        <h1>Checkout Page</h1>
+
+        <form>
+            <label for="address">Address: </label><br>
+            <input type="text" id="address"><br><br>
+
+            <label for="card_num">Card Number:  </label><br>
+            <input type="text" id="card_num"><br><br>
+
+            <label for="card_pin">Card Pin:  </label><br>
+            <input type="text" id="card_pin"><br><br>
+
+            <input type="submit" value="Submit" id="submit_info"><br><br>
+        </form>
+    </div>
+
+    <script src="./js/user.js"></script>
+    <script src="./js/searchbook.js"></script>
+    <script src="./js/cart.js"></script>
+    <script src="./js/checkout.js"></script>
+</body>
+
+</html>
